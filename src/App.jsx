@@ -1,14 +1,15 @@
-import React from 'react'
+import Concent from './Components/Concent'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import PageOne from './Components/PageOne'
+
 function App() {
   return (
     <>
-    
-<PageOne/>
-    
+    <PageOne/>
+    <Concent/>
+
     </>
   )
 }
 
 export default App
-
