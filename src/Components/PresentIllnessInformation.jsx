@@ -2,7 +2,7 @@ import { Outlet, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import React from "react";
 
-export default function ThirdPage() {
+export default function PresentIllnessInformation() {
   const navigate = useNavigate();
 
   const [form, setForm] = useState({
@@ -143,5 +143,5 @@ export default function ThirdPage() {
     </div>
   );
 }
-
+Outlet;
 
