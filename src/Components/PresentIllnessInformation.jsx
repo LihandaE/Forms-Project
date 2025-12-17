@@ -123,7 +123,7 @@ export default function PresentIllnessInformation() {
             onClick={() => navigate("/second")}
             className="border border-red-700 text-red-700 px-6 py-2 rounded hover:bg-red-50"
           >
-            Previous
+            Back
           </button>
 
           <button
