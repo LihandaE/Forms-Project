@@ -32,13 +32,13 @@ export default function PageOne() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-red-50 p-4">
-      <div className="w-full max-w-3xl bg-white border border-red-200 rounded-xl shadow-lg p-8">
-        <h2 className="text-3xl font-bold text-red-700 mb-2">
+    <div className="w-full max-w-3xl bg-white border border-red-200 rounded-xl shadow-lg p-8">
+    <h2 className="text-3xl font-bold text-red-700 mb-2">
           Patient Personal Details
-        </h2>
-        <p className="text-gray-600 mb-6">
+    </h2>
+    <p className="text-gray-600 mb-6">
           Please fill in all required personal information
-        </p>
+    </p>
 
         <form className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <input className="input" name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} />
