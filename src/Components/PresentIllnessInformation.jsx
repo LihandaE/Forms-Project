@@ -42,7 +42,6 @@ export default function PresentIllnessInformation() {
           Medical Assessment
         </h2>
 
-        {/* Chief Complaint */}
         <div className="mb-4">
           <label className="block text-red-700 font-semibold mb-1">
             Chief Complaint (Reason for visit)
@@ -56,7 +55,6 @@ export default function PresentIllnessInformation() {
           />
         </div>
 
-        {/* Date of Onset */}
         <div className="mb-4">
           <label className="block text-red-700 font-semibold mb-1">
             Date of Onset of Symptoms
@@ -70,7 +68,6 @@ export default function PresentIllnessInformation() {
           />
         </div>
 
-        {/* Pain Scale */}
         <div className="mb-4">
           <label className="block text-red-700 font-semibold mb-1">
             Pain Scale (0–10)
@@ -89,7 +86,6 @@ export default function PresentIllnessInformation() {
           </p>
         </div>
 
-        {/* Symptoms Checklist */}
         <div className="mb-4">
           <label className="block text-red-700 font-semibold mb-2">
             Current Symptoms Checklist
@@ -109,7 +105,6 @@ export default function PresentIllnessInformation() {
           </div>
         </div>
 
-        {/* Previous Treatment */}
         <div className="mb-6">
           <label className="block text-red-700 font-semibold mb-1">
             Previous Treatment for Current Illness
@@ -123,7 +118,6 @@ export default function PresentIllnessInformation() {
           />
         </div>
 
-        {/* Navigation */}
         <div className="flex justify-between">
           <button
             onClick={() => navigate("/second")}
